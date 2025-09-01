@@ -356,24 +356,3 @@ function PreferenceEditor({ teacher, schools, onChange }) {
     </section>
   );
 }
-// Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-  apiKey: "AIzaSyAkCu5wdApEe5UVnd3xYu83_v2vcphACHY",
-  authDomain: "robot-tercih-dkab.firebaseapp.com",
-  projectId: "robot-tercih-dkab",
-  storageBucket: "robot-tercih-dkab.firebasestorage.app",
-  messagingSenderId: "762577378078",
-  appId: "1:762577378078:web:b0b6f07dfd977aff02870f",
-  measurementId: "G-C8W1PM0GCP"
-};
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
